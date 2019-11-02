@@ -1,0 +1,73 @@
+ <widget id="A6027155733768"  version="0.0.1">
+
+    <name>youguo</name>
+
+    <description>
+
+        Youguo.
+
+    </description>
+
+    <author email="srj520w@gmail.com" href="http://qianye88.com">
+
+        xiaowei
+
+    </author>
+
+    <content src="index.html" />
+
+    <access origin="*" />
+
+    <preference name="appCertificateVerify" value="false" />
+
+    <preference name="softInputMode" value="auto"/>
+
+    <preference name="softInputBarEnabled" value="true" />
+
+    <preference name="pageBounce" value="false"/>
+
+	<preference name="appBackground" value="rgba(0,0,0,0.0)"/>
+
+	<preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
+
+	<preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+
+	<preference name="hScrollBarEnabled" value="false"/>
+
+	<preference name="vScrollBarEnabled" value="false"/>
+
+	<preference name="autoLaunch" value="true"/>
+
+	<preference name="fullScreen" value="false"/>
+
+	<preference name="autoUpdate" value="true" />
+
+	<preference name="smartUpdate" value="true" />
+
+	<preference name="debug" value="false"/>
+
+	<preference name="statusBarAppearance" value="true"/>
+
+	<permission name="readPhoneState" />
+
+	<permission name="camera" />
+
+	<permission name="record" />
+
+	<permission name="location" />
+
+	<permission name="fileSystem" />
+
+	<permission name="internet" />
+
+	<permission name="bootCompleted" />
+
+	<permission name="hardware" />
+
+    <feature name="bmLocation">
+        <param name="ios_api_key" value="XuooLMzgM7HZ4yrfhuCxC515G9zl0CAY" />
+    </feature>
+
+    <meta-data name="com.baidu.lbsapi.API_KEY" value="XuooLMzgM7HZ4yrfhuCxC515G9zl0CAY" />
+
+</widget>
